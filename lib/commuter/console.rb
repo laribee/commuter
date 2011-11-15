@@ -22,7 +22,7 @@ module Commuter
         say "To:   " + options.dest
         say "Possible commute times are:"
         times = ::Commuter::Mapper.map(options.start, options.dest)
-        say "#{times.join('/n')}"
+        say times.first
         end
 
       end
