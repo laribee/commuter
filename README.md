@@ -4,7 +4,7 @@ This is a silly little command line app written and ruby that tells you the time
 
 I built this for a few reasons:
 
-1. My commute fucking sucks
+1. My commute fucking sucks.
 2. I often check on the time the commute will take because I like to know when my commute is going to fucking suck.
 3. I wanted to play with the mechanize and commander gems. Both are fun, by the way.
 
