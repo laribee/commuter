@@ -1,13 +1,14 @@
 require 'rubygems'
 require 'commander/import'
 require 'commuter/mapper'
+require 'commuter/version'
 
 module Commuter
   module Console
 
     def self.run
       program :name, "commuter"
-      program :version, "0.1.0"
+      program :version, Commuter::VERSION
       program :description, "Commuter tells you how long your commute will be."
 
       default_command :map
