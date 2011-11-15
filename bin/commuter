@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'rubygems'
+require 'commuter/console'
+
+Commuter::Console.run()

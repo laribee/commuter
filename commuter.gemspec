@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 $:.unshift File.join(File.dirname(__FILE__), 'lib')
 
-require "version"
+require "commuter/version"
 
 Gem::Specification.new do |s|
   s.name        = "commuter"
@@ -17,6 +17,7 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib", "bin"]
 
+  s.default_executable = 'bin/commuter'
   s.add_runtime_dependency "commander"
   s.add_runtime_dependency "mechanize"
 end
