@@ -1,6 +1,7 @@
 # -*- encoding: utf-8 -*-
-$:.push File.expand_path("../lib", __FILE__)
-require "commuter/version"
+$:.unshift File.join(File.dirname(__FILE__), 'lib')
+
+require "version"
 
 Gem::Specification.new do |s|
   s.name        = "commuter"
