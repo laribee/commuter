@@ -1,6 +1,6 @@
 require 'rubygems'
 require 'commander/import'
-require 'mapper'
+require 'commuter/mapper'
 
 module Commuter
   module Console
@@ -20,9 +20,9 @@ module Commuter
         c.action do |args, options|
         say "From: " + options.start
         say "To:   " + options.dest
-        say "The commute times are:"
+        say "Possible commute times are:"
         times = ::Commuter::Mapper.map(options.start, options.dest)
-        say "#{times.join(' or ')}"
+        say "#{times.join('/n')}"
         end
 
       end
