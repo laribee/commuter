@@ -10,6 +10,7 @@ I built this for a few reasons:
 
 ## Installation
 
+npm update
 chmod +x ./lib/commuter/commuter.js
 
 ## Usage
