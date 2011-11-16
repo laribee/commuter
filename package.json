@@ -1,0 +1,19 @@
+{
+  "author": "Dan Lash <danlash@gmail.com>",
+  "description": "Calculates the time of your commute.",
+  "name": "commuter",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/danlash/commuter.git"
+  },
+  "main": "./lib/commuter.js",
+  "engines": {
+    "node": "~v0.4.10"
+  },
+   "dependencies": {
+    "optimist": "0.2.x",
+    "request": "2.2.x"
+  },
+  "devDependencies": {}
+}
